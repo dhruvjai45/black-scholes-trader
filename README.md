@@ -197,10 +197,6 @@ The GitHub Actions workflow in `.github/workflows/ci.yml` runs backend linting, 
 
 A `docker-compose.yml` and Dockerfiles are included. The current frontend/API URL configuration should be checked before relying on the Compose setup: the frontend's browser-side API base URL and the Next.js rewrite target use different environment-variable names, and a Docker-internal hostname is not directly resolvable by a browser on the host. The manual two-terminal setup above is the verified-by-configuration local development path; validate or correct the container networking before documenting Docker as a tested deployment path.
 
-## License and attribution
-
-This repository includes the MIT license supplied with the source archive. That license file contains the notice `Copyright (c) 2025 Connor`. Retain the original license and copyright notice when redistributing the covered source. Add attribution for your own modifications separately where appropriate; do not replace the existing copyright notice with your name unless you have the rights to do so.
-
 ## Disclaimer
 
 This software is for educational, research, and analytical purposes only. It is not investment advice and should not be used as the sole basis for financial decisions. Pricing models rely on assumptions and input data that may not reflect actual market conditions.
